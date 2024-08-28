@@ -1,6 +1,7 @@
 /****************************************
-Autor: J. Corredor
-Fecha: 21 de febrero 2024
+Autor: David Rodriguez
+Grupo: Daniel Galvis, Sebastian Rodriguez, Julian Perez
+Fecha: 28 de agosto 2024
 Materia: Estructura de Datos
 Tema: implementación BST 
 ****************************************/
@@ -103,13 +104,10 @@ int main() {
     Nodo *arbol1 = NULL; 
 
     // Insertar los nuevos valores
-    arbol1 = insertarBST(arbol1, 50);
-    arbol1 = insertarBST(arbol1, 30);
-    arbol1 = insertarBST(arbol1, 70);
-    arbol1 = insertarBST(arbol1, 20);
-    arbol1 = insertarBST(arbol1, 40);
-    arbol1 = insertarBST(arbol1, 60);
-    arbol1 = insertarBST(arbol1, 80);
+    int valores[] = {55, 35, 75, 25, 45, 65, 85, 20, 30, 40, 50, 60, 70, 80, 90};
+    for (int i = 0; i < sizeof(valores) / sizeof(valores[0]); ++i) {
+        arbol1 = insertarBST(arbol1, valores[i]);
+    }
 
     // Recorridos en el árbol
     cout << "\n -PreOrden ";  
@@ -120,11 +118,11 @@ int main() {
     inOrdenT(arbol1);
 
     // Eliminar un nodo
-    cout << "\n\nSe elimina el nodo (70):" << endl;
-    arbol1 = borrarNodo(arbol1, 70);
+    cout << "\n\nSe elimina el nodo (75):" << endl;
+    arbol1 = borrarNodo(arbol1, 75);
 
     // Recorrido en orden después de la eliminación
-    cout << "\n -InOrden después de eliminar 70: ";
+    cout << "\n -InOrden después de eliminar 75: ";
     inOrdenT(arbol1);
     cout << endl;
 
