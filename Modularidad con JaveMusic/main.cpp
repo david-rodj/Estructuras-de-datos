@@ -1,3 +1,11 @@
+/********************************************************
+Pontificia Universidad Javeriana
+Autor: David rodriguez
+Fecha: 28/08/2024
+Materia: Estructuras de datos
+Tema: Modularidad
+********************************************************/
+
 #include <iostream>
 #include <fstream>
 #include <sstream>
