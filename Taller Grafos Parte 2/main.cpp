@@ -1,6 +1,6 @@
 /****************************
-Nombre: Juan Manuel Lopez
-Fecha: 16-10-24
+Nombre: David Estevan Rodriguez Jurado
+Fecha: 16/10/2024
 Materia: Estructura de datos
 Tema: Grafos
 *//////////////////////////////
