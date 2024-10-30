@@ -1,4 +1,18 @@
+/********************************************************
+Pontificia Universidad Javeriana
 
+Autor: David Rodriguez Jurado.
+Fecha: 30/10/2024
+Materia: Estructuras de datos
+Tema: Algoritmo de Dijkstra
+
+Definición: El algoritmo de Dijkstra es un algoritmo de 
+búsqueda que encuentra la ruta más corta entre un nodo 
+origen y todos los demás nodos en un grafo. Mantiene un 
+conjunto de nodos cuya distancia mínima desde el origen
+ya es conocida y en cada paso añade al conjunto el nodo 
+con la distancia mínima entre los nodos no procesados.
+********************************************************/
 
 #include <iostream>
 #include <climits>
